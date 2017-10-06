@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    color: orangered;
+}
+
+.card {
+    height: 42px;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.msg {
+    display: inline-block;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-size: 14px;
+    color: blue;
+}
+
+.eye {
+    display: inline-block;
+    color: orangered;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.toolkit {
+    color: transparent;
+    position: absolute;
+    font-size: 30px;
+    top: 24px;
+    right: 15px;
+}
+
+.toolkit:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+#card2 {
+    height: 42px;
+    width: 100%;
+    margin-top: -59px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 42px;
+    width: 100%;
+    background-color: rgba(246, 246, 246, 0.78);
+    margin-top: 16px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.menu i {
+    margin-top: 10px;
+}
+
+.time {
+    display: inline-block;
+    background-color: #4FE54F;
+    padding: 0 12px;
+    color: white;
+    border-radius: 32px;
+    font-size: 10px;
+}
